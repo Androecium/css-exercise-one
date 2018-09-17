@@ -1,4 +1,5 @@
-body
+
+body {
   font-size: 14px;
 }
 
@@ -8,11 +9,12 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
+  background-color: tomato;
 }
 
 h1 {
@@ -20,17 +22,29 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
-  padding-top: 30px;
+.example h3 {
+  padding-top: 300px;
   text-align center
 }
 
 h3 {
   font-size: 1.3em;
 }
-
-.element {
+.element h4{
   background-color: green;
-  height: 100px;
+  height: 400px;
   margin 10px 0;
   width: 100%;
+}
+.element h5{
+  background-color: tomato;
+  height: 400px;
+  margin 10px 0;
+  width: 100%;
+}
+.element h6{
+  background-color: thistle;
+  height: 400px;
+  margin 10px 0;
+  width: 100%;
+}
