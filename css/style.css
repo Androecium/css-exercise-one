@@ -1,50 +1,60 @@
 
 body {
   font-size: 14px;
-}
 
+}
+/*controls the top navigation bar*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
-  margin-top: -10px;
   position: fixed;
   width: 100%;
 }
-
-section {
-  margin: 0 auto;
-  width: 60%;
-  background-color: tomato;
-}
-
+/*changes the header one values(currently the navigation bar text)*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
-.example h3 {
-  padding-top: 300px;
-  text-align center
+.example h1 {
+  padding-top: 1px;
+  text-align: center;
 }
-
+/*controls the header 2-6 values*/
+section {
+  margin: 0 auto;
+  width: 60%;
+  background-color: green;
+}
+/* setting default header 3 font size */
 h3 {
   font-size: 1.3em;
 }
-.element h4{
-  background-color: green;
+/* changes header 3 element area properties */
+ .element h3{
+  background-color: #f0f0f0;
   height: 400px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
 }
+/* changes header 4 element area properties */
+ .element h4{
+  background-color: green;
+  height: 400px;
+  margin: 10px 0;
+  width: 100%;
+}
+/* changes header 5 element area properties */
 .element h5{
   background-color: tomato;
   height: 400px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
 }
+/* changes header 6 element area properties */
 .element h6{
   background-color: thistle;
   height: 400px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
 }
